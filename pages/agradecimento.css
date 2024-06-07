@@ -7,13 +7,13 @@
 }
 
 :root {
-     --dark-blue: #262E38;
-     --light-gray: #969FAD;
-     --medium-gray: #7C8798;
-     --orange: #FC7614;
-     --white: #FFF;
-     --very-dark-blue: #131518;
-     --black-gradient: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e21 100%);
+    --dark-blue: #262E38;
+    --light-gray: #969FAD;
+    --medium-gray: #7C8798;
+    --orange: #FC7614;
+    --white: #FFF;
+    --very-dark-blue: #131518;
+    --black-gradient: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e21 100%);
 }
 
 body{
@@ -27,21 +27,37 @@ body{
 
 .card{
      background: var(--black-gradient);
+     text-align: center;
      max-width: 412px;
-     padding: 32px;
+     padding: 45px 32px;
      border-radius: 30px;
 }
 
+.card img{
+    margin-bottom: 32px;
+}
+
+.card .paragrafo_nota{
+    background-color: var(--very-dark-blue);
+    width: fit-content;
+    margin-inline: auto;
+    padding: 4px 18px;
+    border-radius: 22px;
+
+    font-size: 15px;
+    color: var(--orange);
+
+    margin-bottom: 32px;
+}
+
 .card h1{
+    color: var(--white);
     font-size: 20px;
     margin-bottom: 15px;
-    color: var(--white);
 }
-  
 
 .card p{
     color: var(--light-gray);
     font-size: 15px;
     line-height: 24px;
-    margin-bottom: 24px;
 }
