@@ -47,10 +47,11 @@ body{
 }
 
 .card h1{
-    color: var(--white);
     font-size: 20px;
     margin-bottom: 15px;
+    color: var(--white);
 }
+  
 
 .card p{
     color: var(--light-gray);
